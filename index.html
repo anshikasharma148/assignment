@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+  <div class="form-container" id="formContainer">
+    <div class="form-screen" id="screen1">
+      <h2>Screen 1</h2>
+      <input type="text" id="input1" placeholder="Input 1">
+      <input type="text" id="input2" placeholder="Input 2">
+    </div>
+    <div class="form-screen" id="screen2">
+      <h2>Screen 2</h2>
+      <select id="select1">
+        <option value="">Select option</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <select id="select2">
+        <option value="">Select option</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <button class="previous-btn">Previous</button>
+    </div>
+    <div class="form-screen" id="screen3">
+      <h2>Screen 3</h2>
+      <input type="radio" id="radio1" name="radio" value="radio1">
+      <label for="radio1">Radio 1</label>
+      <input type="radio" id="radio2" name="radio" value="radio2">
+      <label for="radio2">Radio 2</label>
+      <button class="previous-btn">Previous</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
